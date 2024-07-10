@@ -152,10 +152,16 @@ header .title{
     color: rgba(13, 19, 33, 0.7);
     font-size: 18px;
     background-color: white;
+    text-decoration: none;
+    cursor: pointer;
+ }
+
+ .btn-why-dev:hover{
+   background-color: rgba(13, 19, 33, 0.3);
  }
 
  #inspiration{
-    padding: 0 120px;
+    padding: 0 120px 60px;
  }
 
  #inspiration p, #study-target>p{
@@ -238,6 +244,25 @@ header .title{
     height: 50px;
     margin-left: 17px;
     padding: 17px 20px;
+ }
+ #next-target{
+   margin: 80px 120px 30px;
+ }
+
+ #next-target > .next-title{
+   padding: 20px 48px;
+ }
+
+ .next-card-list{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 20px;
+   padding: 40px;
+   border: 1px solid rgba(13, 19, 33, 0.15);
+   border-radius: 16px;
+   background: rgb(255, 255, 255);
+   margin-bottom: 20px;
  }
 
  footer{
